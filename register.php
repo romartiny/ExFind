@@ -49,8 +49,8 @@
 	<script>
 		document.addEventListener('contextmenu', function (e) {
 			e.preventDefault();
-			alert("The right click function has been disabled on this website." + "\n\n" +
-				"(C) Axi, Gill 2018");
+			alert("The right click function has been disabled on EXFIND." + "\n" +
+				"Creator loves and protects you from awful code");
 		});
 	</script>
 </body>
