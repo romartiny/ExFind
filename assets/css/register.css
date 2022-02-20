@@ -1,0 +1,146 @@
+ .container {
+   position: absolute;
+   z-index: 10;
+   width: 0px;
+   height: 390px;
+   background: white;
+   top: 50%;
+   left: 50%;
+   margin: -330px 0 30px -150px;
+   z-index: 100;
+ }
+
+ .container-form {
+   margin: 0 auto;
+   width: 300px;
+   height: 420px;
+ }
+
+ body {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+   word-break: break-word;
+ }
+
+ .header {
+   margin: 50px auto 0px;
+   color: #0bf;
+   text-align: center;
+   border: 1px solid #0bf;
+   border-bottom: none;
+   border-radius: 10px 10px 0px 0px;
+   padding: 20px;
+ }
+
+ .prev-back {
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   margin-left: -140px;
+   margin-top: -5px;
+ }
+
+ form,
+ .content {
+   margin: 0px auto;
+   padding: 20px;
+   border: 1px solid #0bf;
+   border-radius: 0px 0px 10px 10px;
+ }
+
+ .input-group {
+   margin: 10px 0px 10px 0px;
+ }
+
+ .input-group label {
+   display: block;
+   text-align: left;
+   margin: 3px;
+ }
+
+ .input-group input {
+   height: 30px;
+   width: 93%;
+   padding: 5px 10px;
+   font-size: 16px;
+   border-radius: 5px;
+   border: 1px solid #0bf;
+ }
+
+ .btn_reg {
+   width: 110px;
+   margin-left: 152px;
+   padding: 10px;
+   font-size: 15px;
+   color: white;
+   background: #1aa14e;
+   border: none;
+   border-radius: 5px;
+ }
+
+ .input-button {
+   margin-top: 15px;
+ }
+
+ .error {
+   width: 92%;
+   margin: 0px auto;
+   padding: 10px;
+   border: 1px solid #a94442;
+   color: #a94442;
+   border-radius: 5px;
+   text-align: left;
+ }
+
+ .success {
+   color: #3c763d;
+   background: #5dce12;
+   border: 1px solid #3c763d;
+   margin-bottom: 20px;
+ }
+
+ .typing {
+   background: transparent;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+     Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-size: 14px;
+   color: white;
+ }
+
+ .label-class {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+     Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: #0bf;
+   word-break: break-word;
+ }
+
+ .sign-up,
+ .sign-in {
+   text-decoration: none;
+ }
+
+ input:focus {
+   color: #ffffff;
+   border: 1px solid #0bf
+ }
+
+ @keyframes body {
+   0% {
+     top: -25px;
+     opacity: 0
+   }
+
+   50% {
+     top: -50px;
+     opacity: 0
+   }
+
+   100% {
+     top: 0;
+     opacity: 1
+   }
+ }
